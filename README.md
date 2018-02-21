@@ -1,5 +1,7 @@
 # DRAFT - Angular Boot Camp Curriculum - async-pipe
 
+<img src="https://angularbootcamp.com/images/angular-boot-camp-logo.svg" width="394" height="106" />
+
 Hello and welcome to the Angular Boot Camp curriculum. This repository
 represents one of many steps that students will explore during Angular
 Boot Camp. The content introduces a topic for discussion in the form
@@ -11,14 +13,14 @@ for more information.
 
 For a listing of currently published steps see:
 
-ROOT LINK GOES HERE
+https://github.com/AngularBootCamp/abc
 
 ## Getting started
 
 The fast and easy to use this example is via
 [StackBlitz](https://stackblitz.io/):
 
-[StackBlitz for this example](https://stackblitz.io/github/AngularBootCamp/async-pipe)
+[StackBlitz for async-pipe](https://stackblitz.io/github/AngularBootCamp/async-pipe)
 
 Alternatively, you can clone the repository locally and run the
 following commands:
@@ -40,3 +42,5 @@ to use in teaching
 [Angular Boot Camp](https://angularbootcamp.com/)
 
 Copyright 2018 Oasis Digital Solutions Inc.
+
+<img src="https://oasisdigital.com/images/od-logo.svg" width="379" height="143" />
