@@ -7,7 +7,7 @@ ng generate service videoData
 ```
 
 * Inject the service into VideoListComponent and use it to load the
-  video data. (Don't forget to make `VideoDataService` a provider!)
+  video data.
 
 * Use the async pipe to unwrap the data in the observable
 
