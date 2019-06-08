@@ -14,8 +14,7 @@ export interface Employee {
   providedIn: 'root'
 })
 export class EmployeeLoaderService {
-
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
 
   loadEmployees(): Observable<Employee[]> {
     return this.http
