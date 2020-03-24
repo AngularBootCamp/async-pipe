@@ -11,9 +11,9 @@ import {
   templateUrl: './app.component.html'
 })
 export class AppComponent {
-  employeeData: Observable<Employee[]>;
+  employees: Observable<Employee[]>;
 
   constructor(svc: EmployeeLoaderService) {
-    this.employeeData = svc.loadEmployees();
+    this.employees = svc.loadEmployees();
   }
 }
