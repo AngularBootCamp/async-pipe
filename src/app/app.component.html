@@ -1,19 +1,12 @@
-<section class="card">
-  <div class="card-content">
-    <div class="card-title">Top 5 employees</div>
+<article>
+  <header>Top 5 employees</header>
 
-    <!-- The "loading display" functionality is now done entirely in the template -->
-    <!-- https://angular.io/api/common/NgIf#showing-an-alternative-template-using-else -->
+  <!-- The "loading display" functionality is now done entirely in the template -->
+  <!-- https://angular.io/api/common/NgIf#showing-an-alternative-template-using-else -->
 
-    <ul
-      class="collection"
-      *ngIf="employees | async as emps; else loading"
-    >
-      <li class="collection-item" *ngFor="let e of emps">
-        {{ e.firstName }} {{ e.lastName }}
-      </li>
-    </ul>
+  <ul *ngIf="employees | async as emps; else loading">
+    <li *ngFor="let e of emps">{{ e.firstName }} {{ e.lastName }}</li>
+  </ul>
 
-    <ng-template #loading>Loading...</ng-template>
-  </div>
-</section>
+  <ng-template #loading>Loading...</ng-template>
+</article>
