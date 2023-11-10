@@ -1,3 +1,4 @@
+import { NgIf, NgFor, AsyncPipe } from '@angular/common';
 import { Component } from '@angular/core';
 import { Observable } from 'rxjs';
 
@@ -8,7 +9,9 @@ import {
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html'
+  templateUrl: './app.component.html',
+  standalone: true,
+  imports: [NgIf, NgFor, AsyncPipe]
 })
 export class AppComponent {
   employees: Observable<Employee[]>;
